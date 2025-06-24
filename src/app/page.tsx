@@ -7,6 +7,7 @@ export default function Home() {
           <Link className="text-2xl font-bold hover:bg-indigo-400 py-4 px-8 transition-all rounded-md " href={'/'}>Home</Link>
 
       <Link className="text-2xl font-bold hover:bg-indigo-400 py-4 px-8 transition-all rounded-md " href={'/auth/register'}>Register</Link>
+      <Link className="text-2xl font-bold hover:bg-indigo-400 py-4 px-8 transition-all rounded-md " href={'/auth/login'}>Login</Link>
 
       </main>
       

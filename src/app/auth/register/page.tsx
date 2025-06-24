@@ -88,52 +88,8 @@ const RegisterPage = () => {
         {/* Left side - illustration */}
         <div className="hidden md:block relative h-full min-h-[700px] bg-primary">
           <div className="absolute inset-0 bg-gradient-to-br from-primary to-primary-foreground/20 flex flex-col justify-between p-12 text-white">
-            <div className="flex items-center space-x-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="h-8 w-8"
-              >
-                <path d="M15 6v12a3 3 0 1 0 3-3H6a3 3 0 1 0 3 3V6a3 3 0 1 0-3 3h12a3 3 0 1 0-3-3" />
-              </svg>
-              <span className="text-2xl font-bold">Auth Flow</span>
-            </div>
-
-            <div className="space-y-4">
-              <h1 className="text-3xl font-bold">Join our community!</h1>
-              <p className="text-white/80">
-                Create an account to access all features of our platform
-              </p>
-              <div className="pt-4">
-                <div className="flex flex-col space-y-3">
-                  {[
-                    "Secure authentication",
-                    "Email verification",
-                    "Password recovery",
-                  ].map((feature, i) => (
-                    <div key={i} className="flex items-center space-x-2">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        className="h-5 w-5 text-white"
-                      >
-                        <path d="M20 6 9 17l-5-5" />
-                      </svg>
-                      <span>{feature}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
+            <div className="flex items-center justify-center space-x-2">
+              <span className="text-2xl font-bold">Welcome </span>
             </div>
           </div>
         </div>
